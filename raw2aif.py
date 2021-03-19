@@ -30,7 +30,7 @@ else:
 
 # initialize aif block
 d = cif.Document()
-d.add_new_block('data_raw2aifv003')
+d.add_new_block('raw2aifv003')
 
 block = d.sole_block()
 
@@ -52,6 +52,7 @@ block.set_pair('_units_temperature', data_meta["temperature_unit"])
 block.set_pair('_units_pressure', data_meta["pressure_unit"])
 block.set_pair('_units_mass', data_meta["adsorbent_unit"])
 block.set_pair('_units_loading',"'"+data_meta["loading_unit"]+"'")
+block.set_pair('_audit_aifversion',2)
 
 # write adsorption data
 loop_ads = block.init_loop('_adsorp_', ['pressure', 'p0', 'loading'])
