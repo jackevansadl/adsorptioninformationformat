@@ -1,4 +1,4 @@
-data_data_raw2aifv003
+data_raw2aifv003
 _exptl_operator unknown
 _exptl_date 2017-06-17T12:27:21
 _exptl_instrument 'TriStar II 3020 3.02'
@@ -11,6 +11,7 @@ _units_temperature K
 _units_pressure torr
 _units_mass g
 _units_loading 'cm³/g STP'
+_audit_aifversion 2
 
 loop_
 _adsorp_pressure

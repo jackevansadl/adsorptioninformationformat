@@ -1,4 +1,4 @@
-data_data_raw2aifv003
+data_raw2aifv003
 _exptl_operator 'nicole'
 _exptl_date 2009-09-17T19:56:00
 _exptl_instrument 'autosorb station 1'
@@ -11,6 +11,7 @@ _units_temperature k
 _units_pressure Torr
 _units_mass g
 _units_loading 'cc'
+_audit_aifversion 2
 
 loop_
 _adsorp_pressure

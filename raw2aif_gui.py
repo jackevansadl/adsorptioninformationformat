@@ -51,7 +51,7 @@ def convert(filename, material_id, filetype):
     block.set_pair('_units_pressure', data_meta["pressure_unit"])
     block.set_pair('_units_mass', data_meta["adsorbent_unit"])
     block.set_pair('_units_loading',"'"+data_meta["loading_unit"]+"'")
-    block.set_pair('_audit_aifversion',2)
+    block.set_pair('_audit_aifversion','2')
 
     # write adsorption data
     loop_ads = block.init_loop('_adsorp_', ['pressure', 'p0', 'loading'])

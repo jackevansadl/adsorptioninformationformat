@@ -1,4 +1,4 @@
-data_data_raw2aifv003
+data_raw2aifv003
 _exptl_operator 'Simon'
 _exptl_date 2015-07-05T00:00:00
 _exptl_instrument 'BEL 00349'
@@ -11,6 +11,7 @@ _units_temperature K
 _units_pressure kPa
 _units_mass g
 _units_loading 'ml(STP) g-1'
+_audit_aifversion 2
 
 loop_
 _adsorp_pressure
