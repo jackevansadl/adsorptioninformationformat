@@ -37,6 +37,8 @@ The current dictionary of data items used by adsorption information files can be
 ## Mixture adsorption
 Mixture adsorption can be defined using the same terms as the core dictionary where the suffix *_n*, where n=1,2,3 can be added to data names to refer to different adsorptives. For example:
 
+| data name | description |
+| --- | --- |
 | _exptl_adsorptive_n |  name of the adsorptive for mixture adsorption n=1,2,3 (string) | 
 | _adsorp_pressure_n | equilibrium pressure of the adsorption measurement (float)  | 
 | _adsorp_p0_n |  saturation pressure of the adsorption measurement at the temperature of the experiment (float)   | 
