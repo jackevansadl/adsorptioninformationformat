@@ -17,6 +17,7 @@ The current dictionary of data items used by adsorption information files can be
 | _exptl_notes | notes of the adsorption experiment (string)   | 
 | _exptl_run_number | run number for cycle experiments (integer)   | 
 | _exptl_p0 | saturation pressure of the experiment at the temperature of the experiment (float) |
+| _exptl_method | method of measuring adsorption (volumetric, chromatographic, gravimetric, simulation) |
 | _sample_id | unique identifying code used by the operator (string)  | 
 | _sample_material_id | designated name for the material (string)   | 
 | _sample_notes | notes of sample preparation (string)   | 
@@ -28,10 +29,10 @@ The current dictionary of data items used by adsorption information files can be
 | _units_density | units of density (string)   |  
 | _adsorp_pressure | equilibrium pressure of the adsorption measurement (float)  | 
 | _adsorp_p0 |  saturation pressure of the adsorption measurement at the temperature of the experiment (float)   | 
-| _adsorp_loading  | amount adsorbed during the adsorption measurement (float)   | 
+| _adsorp_amount  | amount adsorbed during the adsorption measurement (float)   | 
 | _desorp_pressure | equilibrium  pressure of the desorption measurement at the temperature of the experiment (float)   | 
 | _desorp_p0 | saturation pressure of the desorption measurement at the temperature of the experiment (float)   | 
-| _desorp_loading |  amount adsorbed during the desorption measurement (float)   |
+| _desorp_amount |  amount adsorbed during the desorption measurement (float)   |
 | _audit_aifversion | version number of AIF dicitionary (integer) |
 
 ## Mixture adsorption
@@ -42,7 +43,7 @@ Mixture adsorption can be defined using the same terms as the core dictionary wh
 | _exptl_adsorptive_n |  name of the adsorptive for mixture adsorption n=1,2,3 (string) | 
 | _adsorp_pressure_n | equilibrium pressure of the adsorption measurement (float)  | 
 | _adsorp_p0_n |  saturation pressure of the adsorption measurement at the temperature of the experiment (float)   | 
-| _adsorp_loading_n  | amount adsorbed during the adsorption measurement (float)   | 
+| _adsorp_amount_n  | amount adsorbed during the adsorption measurement (float)   | 
 
 Please note, in this case *_adsorp_pressure* is used to refer to the total pressure.
 
