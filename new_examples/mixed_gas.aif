@@ -1,0 +1,30 @@
+#mixture data for volumetric chromatographic instrument
+data_mixture
+_exptl_date 2020-09-17T00:00:00
+_exptl_instrument 'VC-14'
+_exptl_adsorptive_1 propane
+_exptl_adsorptive_2 propylene
+_exptl_adsorptive_1_molfraction 0.5
+_exptl_adsorptive_2_molfraction 0.5
+_exptl_temperature 298
+_exptl_sample_mass 0.555
+_exptl_method 'volumetric chromatographic'
+
+_sample_id 'XXX-XXX'
+_sample_material_id 'DUT-XX'
+
+_units_temperature K
+_units_pressure kPa
+_units_mass g
+_units_loading ml(STP)/g
+_units_loading_type excess
+
+loop_
+_adsorp_pressure
+_adsorp_pressure_1
+_adsorp_pressure_2
+_adsorp_amount_1
+_adsorp_amount_2
+171.85    66.52 	107.47   18.01 	  14.88
+221.55    67.20 	157.54   15.20 	  11.77
+497.66    250.32 	268.43   118.13   99.29

@@ -40,10 +40,10 @@ Mixture adsorption can be defined using the same terms as the core dictionary wh
 
 | data name | description |
 | --- | --- |
-| _exptl_adsorptive_n |  name of the adsorptive for mixture adsorption n=1,2,3 (string) | 
-| _adsorp_pressure_n | equilibrium pressure of the adsorption measurement (float)  | 
-| _adsorp_p0_n |  saturation pressure of the adsorption measurement at the temperature of the experiment (float)   | 
-| _adsorp_amount_n  | amount adsorbed during the adsorption measurement (float)   | 
+| _exptl_adsorptive_n |  name of the adsorptive for mixture adsorption n=1,2,3 (string) |
+| _exptl_adsorptive_n_molfraction | mole fraction of adsorptive n (float) | 
+| _adsorp_pressure_n | equilibrium pressure of the adsorptive n  (float)  | 
+| _adsorp_amount_n  | amount adsorbed of species n  (float)   | 
 
 Please note, in this case *_adsorp_pressure* is used to refer to the total pressure.
 

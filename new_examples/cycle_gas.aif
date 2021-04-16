@@ -1,0 +1,47 @@
+#adsorption cycle data for volumetric instrument
+data_run1
+_exptl_date 2021-04-16T00:00:00
+_exptl_instrument 'XXXX'
+_exptl_adsorptive methane
+_exptl_temperature 298
+_exptl_sample_mass 0.666
+_exptl_method 'volumetric'
+_exptl_run_number 1
+
+_sample_id 'XXX-XXX'
+_sample_material_id 'DUT-XX'
+
+_units_temperature K
+_units_pressure kPa
+_units_mass g
+_units_loading ml(STP)/g
+_units_loading_type excess
+
+loop_
+_adsorp_pressure
+_adsorp_p0
+_adsorp_amount
+0.273485572344 101860.98004799998 0.009928476539499517
+
+
+data_run2
+_exptl_date 2021-04-16T00:00:00
+_exptl_instrument 'XXXX'
+_exptl_adsorptive methane
+_exptl_temperature 298
+_exptl_sample_mass 0.666
+_exptl_method 'volumetric'
+_exptl_run_number 2
+
+_units_temperature K
+_units_pressure kPa
+_units_mass g
+_units_loading ml(STP)/g
+_units_loading_type excess
+
+loop_
+_adsorp_pressure
+_adsorp_p0
+_adsorp_amount
+0.273485572344 101860.98004799998 0.009928476539499517
+
